@@ -1,0 +1,236 @@
+body{
+  background: #6fb1fc;
+  font-family: 'Raleway', sans-serif;
+}
+
+h2{
+  font-weight: bolder;
+  font-family: 'Raleway', sans-serif;
+  color: #6fb1fc;
+}
+
+h3{
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  color: #6fb1fc;
+}
+
+a{
+  color: black;
+}
+
+a:hover{
+  color:#cfd7df;
+}
+
+#wrapper{
+  margin: 0px auto;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #6fb1fc;
+  /*background-image: url(img/WEB-Ult2.jpg);*/
+  background-blend-mode: screen;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+.index{
+  background-image: url(img/WEB-Ult2.jpg);
+}
+
+.throwing {
+  background-image: url(img/WEB-Ult4.jpg);
+}
+
+.rules{
+  background-image: url(img/WEB-Ult3.jpg)
+}
+
+.offense{
+  background-image: url(img/WEB-Ult7.jpeg)
+}
+
+.defense{
+  background-image: url(img/WEB-Ult6.jpg)
+}
+
+.header{
+      background-color: #cfd7df;
+      font-family: 'Playfair Display', serif;
+      opacity: 1;
+      text-align: center;
+      padding: 20px;
+      border: 5px solid #333;
+      font-weight: bolder;
+      font-size: 30px;
+      margin-bottom: 0px;
+}
+
+.h2 img{
+  display: inline;
+  float: right;
+  vertical-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav{
+  overflow: hidden;
+  font-family: 'Playfair Display', serif;
+  margin-top: 0px;
+  background-color: #cfd7df;
+  border: 5px solid rgb(51, 51, 51);
+  border-top-style: none;
+}
+
+.nav a{
+  float: left;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  padding: 10px 15px 20px;
+}
+
+.nav a:hover{
+  background-color: white;
+  color: #333;
+}
+
+.nav a.selected {
+  /*background-color: #6fb1fc;*/
+  color: #6fb1fc;
+}
+
+
+
+/*.common{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 10px;
+  align-items: flex-start;
+} */
+
+
+/*index*/
+.leftcolumn{
+  background-color: white;
+  padding: 10px;
+}
+
+.rightcolumn{
+  background-color: white;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+
+/* Throwing */
+.mainFirst{
+  background-color: white;
+  padding: 10px;
+}
+
+/* Rules */
+.common{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 10px;
+  align-items: flex-start;
+}
+
+.gpleft{
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.gpright{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  background-color: white;
+  padding: 10px;
+}
+
+/* Offense */
+.main{
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 2fr 1fr;
+  row-gap: 10px;
+}
+
+.mainO{
+  column-gap: 10px;
+  grid-template-areas: "o1 o1" "o2 v2" "o3 v2";
+}
+
+.all{
+  background: white;
+  padding: 10px;
+}
+
+.o1{
+  grid-area: o1;
+}
+
+.o2{
+  grid-area: o2;
+}
+
+.o3{
+  grid-area: o3;
+}
+
+.v2{
+  grid-area: v2;
+}
+
+/* Defense */
+.mainD{
+  grid-template-areas: "o1 v1" "o2 v2" "o3 v3";
+}
+
+.v1{
+  grid-area: v1;
+}
+
+.v3{
+  grid-area: v3;
+}
+
+
+.footer{
+      background-color: #cfd7df;
+      opacity: 1;
+      text-align: start;
+      padding: 10px;
+}
+
+.fl{
+  text-align: center;
+}
+
+.footer a{
+  text-decoration: none;
+  font-size: 15px;
+  //display: block;
+  //float: left;
+}
+
+.footer a:hover{
+  color: black;
+}
+
+.footer a:visited{
+  color: black;
+}
+
+
+.fl ul{
+  //list-style-type: none;
+  //margin: 10px;
+ // display: inline-block;
+ // text-align: center;
+}
